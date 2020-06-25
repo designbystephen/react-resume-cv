@@ -2,26 +2,12 @@ import React from 'react';
 import './style.scss';
 
 const Chip = ({
-    Icon,
-    title,
-    href,
+  text,
+  addtlClassNames
 }) => (
-  <div className="chip">
-    <div className="chip__icon">
-      <Icon /> 
-    </div>
-    {href ? (
-      <div className="chip__text">
-        <a href={href}>{ title }</a>
-      </div>
-    ) : (
-      <div className="chip__text">
-      { title }
-    </div>
-    )}
-    
-
-</div>
+  <span className={`chip ${addtlClassNames}`}>
+    {text}
+  </span>
 );
 
 export default Chip;

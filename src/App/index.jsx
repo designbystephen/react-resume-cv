@@ -1,13 +1,22 @@
 import React from 'react';
-import { Header } from '../components';
-import { WorkHistory } from '../containers';
+import { Header, Reflex, PageContent, SideBar } from '../components';
+import { WorkHistory, TechnicalSkills } from '../containers';
+import PersonalSkills from '../containers/PersonalSkills';
 
 function App() {
   return (
     <>
       <Header />
       <main>
-        <WorkHistory />
+        <Reflex>
+          <PageContent>
+            <WorkHistory />
+          </PageContent>
+          <SideBar>
+            <TechnicalSkills />
+            <PersonalSkills />
+          </SideBar>
+        </Reflex>
       </main>
     </>
   );

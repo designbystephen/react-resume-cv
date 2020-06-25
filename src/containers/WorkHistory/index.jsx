@@ -1,9 +1,9 @@
 import React from 'react';
-import { Experience, SectionHeader } from '../../components';
+import { Section, Experience, SectionHeader } from '../../components';
 import workHistory from './modules/workHistory'
 
 const WorkHistory = () => (
-  <div>
+  <Section>
     <SectionHeader 
       title="Professional Experience"
       id="professional-experience"
@@ -11,7 +11,7 @@ const WorkHistory = () => (
     {workHistory && !!workHistory.length && workHistory.map((experience, index) => (
       <Experience key={index} {...experience} />
     ))}
-  </div>
+  </Section>
 );
 
 export default WorkHistory;

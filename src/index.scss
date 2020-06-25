@@ -8,9 +8,14 @@
 
 html,
 body {
-  height: 100%;
   font-family: 'Rubik', sans-serif;
   color: #555;
+}
+
+html,
+body,
+#root {
+  height: 100%;
 }
 
 body { 
@@ -23,4 +28,13 @@ a {
 
 ul {
   list-style-position: inside;
+}
+
+#root {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.--small-text {
+  font-size: .75em;
 }

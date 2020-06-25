@@ -1,5 +1,5 @@
 import React from 'react';
-import { Chip, AssetIcon } from '..';
+import { Tidbit, AssetIcon } from '..';
 import './style.scss';
 
 const Header = () => (
@@ -11,24 +11,24 @@ const Header = () => (
       </div>
       <address className="header__contact-me">
         <div className="header__chip-row">
-          <Chip
+          <Tidbit
             Icon={() => <AssetIcon name="link-solid.svg" />}
             title="designbystephen.com"
             href="http://designbystephen.com"
           />
-          <Chip
+          <Tidbit
             Icon={() => <AssetIcon name="at-solid.svg" />}
             title="designbystephen@gmail.com"
             href="mailto:designbystephen@gmail.com"
           />
         </div>
         <div className="header__chip-row">
-          <Chip
+          <Tidbit
             Icon={() => <AssetIcon name="code-solid.svg" />}
             title="github.com/designbystephen"
             href="https://github.com/designbystephen"
           />
-          <Chip
+          <Tidbit
             Icon={() => <AssetIcon name="map-marker-alt-solid.svg" />}
             title="St. Louis, MO"
           />

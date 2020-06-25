@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  
+  &__title {
+   > h1 {
+     margin: 0;
+     padding: 0 0 6px;
+   }
+  }
+
+  &__left {
+    flex-grow: 1;
+  }
+
+  &__avatar,
+  &__avatar > img {
+    width: 150px;
+  }
+
+  &__contact-me {
+    width: 575px;
+    padding: 12px 0;
+    font-style: normal;
+  }
+
+  &__chip-row {
+    display: flex;
+    padding-bottom: 3px;
+    
+    > * {
+      flex-grow: 1;
+      flex-basis: 50%;
+    }
+  }
+}

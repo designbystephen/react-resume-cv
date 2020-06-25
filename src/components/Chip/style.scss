@@ -1,0 +1,12 @@
+.chip {
+  display: flex;
+
+  &__icon {
+    flex-grow: 0;
+  }
+  
+  &__text {
+    flex-grow: 1;
+    margin-left: 6px;
+  }
+}

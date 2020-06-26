@@ -11,7 +11,7 @@ export default [
     ],
     technologies: [
       'Object Oriented Javascript', 'React', 'Redux', 'Node.js', 'AWS', 'Jenkins', 
-      'GraphDB', 'MongoDB', 'Swagger', 'Express.js', 'API', 'OAuth', 'JWT', 'Docker', 'REST'
+      'GraphDB', 'MongoDB', 'Swagger', 'Express.js', 'API', 'OAuth', 'JWT', 'Docker', 'REST', 'HAL'
     ],
   },
   {
@@ -21,7 +21,7 @@ export default [
     details: [
     ],
     technologies: [
-      'React', 'Redux', 'Ember.js', 'Node.js', 'OAuth', 'REST'
+      'React', 'Redux', 'Ember.js', 'Node.js', 'OAuth', 'REST', 'HAL',
     ],
   },
   {
@@ -32,7 +32,7 @@ export default [
       'Developed SaaS (Software as a Service)'
     ],
     technologies: [
-      'React', 'Redux', 'Cordova', 'Ember.js', 'Node.js', 'REST'
+      'React', 'Redux', 'Cordova', 'Ember.js', 'Node.js', 'REST',
     ],
   },
   {
@@ -67,7 +67,10 @@ export default [
     title: "Freelance Web Developer",
     companyName: "Nazpaz.com",
     dates: "9/2015 - 4/2017",
-    details: [
+    details: [  
+      'Developed and designed custom blog and Content Management System',
+      'Created SMTP email forwarding service',
+      'Created variaus art resources'
     ]
   },
   {
@@ -75,6 +78,14 @@ export default [
     companyName: "Decatur Memorial Hospital",
     dates: "9/2015 - 4/2017",
     details: [
+      'Award-winning UI/UX development',
+      'Created several physician ordering applications used to improve patient care',
+      'Developed several business solutions including surveys, issue trackers, message boards, and email marketing campaigns',
+      'Developed and maintained internal and external websites',
+      'Developed and maintained blog for the CEO',
+    ],
+    technologies: [
+      'HTML', 'Javascript', 'CSS', 'C#.NET', 'ASP.NET', 'WordPress', 'MSSQL', 'Oracle', 'VGR'
     ]
   },
 ];

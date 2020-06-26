@@ -6,6 +6,9 @@
   }
 
   &__bullets {
-    margin-left: 3px;
+    > ul {
+      margin-left: 18px;
+      list-style: outside;
+    }
   }
 }

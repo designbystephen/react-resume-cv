@@ -11,6 +11,7 @@ import PageContent from './PageContent';
 import Reflex from './Reflex';
 import Skills from './Skills';
 import Section from './Section';
+import Training from './Training';
 
 export {
   Tidbit,
@@ -26,4 +27,5 @@ export {
   Reflex,
   Skills,
   Section,
+  Training,
 }

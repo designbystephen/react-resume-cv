@@ -14,7 +14,7 @@ const Experience = ({
     <DetailHeader title={title} id={dasherize(companyName, title)} />
     <div className="experience__company">
       <Tidbit
-        Icon={() => <AssetIcon name="building-regular.svg" />}
+        Icon={() => <AssetIcon name="briefcase-solid.svg" />}
         title={ companyName }
       />
     </div>

@@ -3,12 +3,16 @@ import './style.scss';
 
 const DetailHeader = ({
   title,
-  id
+  id = ''
 }) => (
   <h3 className="detail-header" id={id}>
-    <a href={`#${id}`}>
+    {id ? (
+      <a href={`#${id}`}>
+        { title }
+      </a>
+    ) : (
       { title }
-    </a>
+    )}
   </h3>
 );
 

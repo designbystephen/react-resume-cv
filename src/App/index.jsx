@@ -1,7 +1,6 @@
 import React from 'react';
 import { Header, Reflex, PageContent, SideBar } from '../components';
-import { WorkHistory, TechnicalSkills } from '../containers';
-import PersonalSkills from '../containers/PersonalSkills';
+import { WorkHistory, TechnicalSkills, PersonalSkills, EducationHistory } from '../containers';
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
           <SideBar>
             <TechnicalSkills />
             <PersonalSkills />
+            <EducationHistory />
           </SideBar>
         </Reflex>
       </main>

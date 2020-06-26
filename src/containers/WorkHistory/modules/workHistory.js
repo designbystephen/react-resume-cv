@@ -5,8 +5,7 @@ export default [
     dates: "12/2017 - Present",
     details: [
       'Architect scalable, secure, and modern software',
-      'Innovate UI development practices, principles and patterns', 
-      'Pioneer fullstack development practices, principles and patterns',
+      'Innovate UI development and fullstack development practices, principles and patterns', 
       'Mentor, train and build cross-functional engineering teams',
       'Manage agile projects and scrum teams',
     ],
@@ -20,26 +19,27 @@ export default [
     companyName: "NJVC",
     dates: "4/2017 - 12/2017",
     details: [
-      'Mentored and trained front-end and cross-functional engineering teams',
-      'Lead development teams on several projects',
-    ]
+    ],
+    technologies: [
+      'React', 'Redux', 'Ember.js', 'Node.js', 'OAuth', 'REST'
+    ],
   },
   {
     title: "Senior Software Engineer",
     companyName: "NextGen / NJVC",
     dates: "9/2015 - 4/2017",
     details: [
-      'Mentored and trained front-end and cross-functional engineering teams',
-      'Lead development teams on several projects',
-    ]
+      'Developed SaaS (Software as a Service)'
+    ],
+    technologies: [
+      'React', 'Redux', 'Cordova', 'Ember.js', 'Node.js', 'REST'
+    ],
   },
   {
     title: "Senior Consultant - Front-End Developer",
     companyName: "Leidos",
     dates: "9/2015 - 4/2017",
     details: [
-      'Mentored and trained front-end and cross-functional engineering teams',
-      'Lead development teams on several projects',
     ]
   },
   {
@@ -47,8 +47,6 @@ export default [
     companyName: "HSM Consulting",
     dates: "9/2015 - 4/2017",
     details: [
-      'Mentored and trained front-end and cross-functional engineering teams',
-      'Lead development teams on several projects',
     ]
   },
   {
@@ -56,8 +54,6 @@ export default [
     companyName: "Holland Square Group",
     dates: "9/2015 - 4/2017",
     details: [
-      'Mentored and trained front-end and cross-functional engineering teams',
-      'Lead development teams on several projects',
     ]
   },
   {
@@ -65,8 +61,6 @@ export default [
     companyName: "maxIT Healthcare",
     dates: "9/2015 - 4/2017",
     details: [
-      'Mentored and trained front-end and cross-functional engineering teams',
-      'Lead development teams on several projects',
     ]
   },
   {
@@ -74,8 +68,6 @@ export default [
     companyName: "Nazpaz.com",
     dates: "9/2015 - 4/2017",
     details: [
-      'Mentored and trained front-end and cross-functional engineering teams',
-      'Lead development teams on several projects',
     ]
   },
   {
@@ -83,8 +75,6 @@ export default [
     companyName: "Decatur Memorial Hospital",
     dates: "9/2015 - 4/2017",
     details: [
-      'Mentored and trained front-end and cross-functional engineering teams',
-      'Lead development teams on several projects',
     ]
   },
 ];

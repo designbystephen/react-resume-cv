@@ -1,3 +1,5 @@
-.section {
-  margin-bottom: 24px;
+@import "../../styles";
+
+.section { 
+  margin: $default-spacing/2 0;
 }

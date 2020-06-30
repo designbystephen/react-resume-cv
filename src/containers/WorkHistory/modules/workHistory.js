@@ -11,7 +11,7 @@ export default [
     ],
     technologies: [
       'Object Oriented Javascript', 'React', 'Redux', 'Node.js', 'AWS', 'Jenkins', 
-      'GraphDB', 'MongoDB', 'Swagger', 'Express.js', 'API', 'OAuth', 'JWT', 'Docker', 'REST', 'HAL'
+      'GraphDB', 'MongoDB', 'Swagger', 'Express.js', 'API', 'Rest', 'HAL', 'OAuth', 'JWT', 'Docker', 
     ],
   },
   {
@@ -19,9 +19,10 @@ export default [
     companyName: "NJVC",
     dates: "4/2017 - 12/2017",
     details: [
+      'Lead team'
     ],
     technologies: [
-      'React', 'Redux', 'Ember.js', 'Node.js', 'OAuth', 'REST', 'HAL',
+      'React', 'Redux', 'Ember.js', 'Node.js', 'Express.js', 'OAuth', 'REST', 'HAL', 'Bamboo',
     ],
   },
   {
@@ -29,10 +30,13 @@ export default [
     companyName: "NextGen / NJVC",
     dates: "9/2015 - 4/2017",
     details: [
+      'Developed Commercial SaaS',
+      'Developed ',
       'Developed SaaS (Software as a Service)'
     ],
     technologies: [
-      'React', 'Redux', 'Cordova', 'Ember.js', 'Node.js', 'REST',
+      'React', 'Redux', 'Ember.js', 'Node.js', 'Express.js', 'Cordova', 'OAuth', 'REST', 'HAL', 
+      'Bamboo', 'SaaS',
     ],
   },
   {

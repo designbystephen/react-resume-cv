@@ -1,10 +1,12 @@
+@import "../../styles/";
+
 .header {
   display: flex;
   
   &__title {
    > h1 {
      margin: 0;
-     padding: 0 0 6px;
+     padding: $default-spacing/2 0;
    }
   }
 
@@ -19,13 +21,13 @@
 
   &__contact-me {
     width: 575px;
-    padding: 12px 0;
+    padding: $default-spacing/2 0;
     font-style: normal;
   }
 
   &__chip-row {
     display: flex;
-    padding-bottom: 3px;
+    padding-bottom: $default-spacing/4;
     
     > * {
       flex-grow: 1;

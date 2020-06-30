@@ -1,5 +1,7 @@
+@import "../../styles";
+
 .detail-header {
-  padding-bottom: 6px;
+  padding: $default-spacing/4 0;
   
   > a {
     text-decoration: none;

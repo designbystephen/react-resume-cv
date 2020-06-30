@@ -1,5 +1,5 @@
 import React from 'react';
-import { AssetIcon, Tidbit, DetailHeader, Chip } from '..';
+import { AssetIcon, Tidbit, DetailHeader, Chip, EmphasisHeader } from '..';
 import dasherize from '../../utils/dasherize';
 import './style.scss';
 
@@ -12,13 +12,13 @@ const Experience = ({
 }) => (
   <section className="experience">
     <DetailHeader title={title} id={dasherize(companyName, title)} />
-    <div className="experience__company">
+    <div className="experience__detail">
       <Tidbit
         Icon={() => <AssetIcon name="briefcase-solid.svg" />}
         title={ companyName }
       />
     </div>
-    <div className="experience__range">
+    <div className="experience__detail">
       <Tidbit
         Icon={() => <AssetIcon name="calendar-alt-regular.svg" />}
         title={ dates }
@@ -28,6 +28,7 @@ const Experience = ({
       {details && !!details.length && details.map((bullet, index) => <li key={index}>{bullet}</li>)}
     </ul>
     <div className="experience__technology">
+      <EmphasisHeader title="Technologies Used" />
       <ul>
         {technologies && !!technologies.length && technologies.map((tech, index) => (
           <li key={index}>

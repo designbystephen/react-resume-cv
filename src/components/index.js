@@ -12,6 +12,7 @@ import Reflex from './Reflex';
 import Skills from './Skills';
 import Section from './Section';
 import Training from './Training';
+import EmphasisHeader from './EmphasisHeader';
 
 export {
   Tidbit,
@@ -28,4 +29,5 @@ export {
   Skills,
   Section,
   Training,
+  EmphasisHeader,
 }

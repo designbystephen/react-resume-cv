@@ -1,21 +1,16 @@
+@import "../../styles/";
+
 .experience {
-  padding-bottom: 12px;
+  margin: $default-spacing/2 0;
 
-  &__title {
-    padding-bottom: 6px;
-  }
-
-  &__company {
-    padding-bottom: 3px;
-  }
-
-  &__range {
+  &__detail {
     padding-bottom: 3px;
   }
 
   &__bullets {
     margin-left: 18px;
     list-style: outside;
+    padding: $default-spacing/4 0;
   }
 
   &__technology {
@@ -23,7 +18,7 @@
       display: inline-block;
       list-style: none;
       margin: 0;
-      padding: 6px 0;
+      padding: 0;
 
       > li {
         display: inline-block;

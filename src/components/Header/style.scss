@@ -20,7 +20,6 @@
   }
 
   &__contact-me {
-    width: 575px;
     padding: $default-spacing/2 0;
     font-style: normal;
   }
@@ -30,8 +29,8 @@
     padding-bottom: $default-spacing/4;
     
     > * {
-      flex-grow: 1;
-      flex-basis: 50%;
+      // flex-grow: 1;
+      flex-basis: 250px;
     }
   }
 }

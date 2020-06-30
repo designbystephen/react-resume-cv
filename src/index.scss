@@ -21,6 +21,15 @@ body {
   padding: $default-spacing;
 }
 
+@media print {
+  body {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-size: $print-font-size;
+  }
+}
+
 a {
   color: inherit;
 }

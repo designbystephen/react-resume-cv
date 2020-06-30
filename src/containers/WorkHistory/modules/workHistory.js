@@ -12,7 +12,7 @@ export default [
     ],
     technologies: [
       'React', 'Redux', 'Webpack', 'Jest', 'Node.js', 'Express', 'GraphDB', 'MongoDB', 
-      'Swagger', 'API', 'OAuth', 'JWT', 'Docker', 'REST', 'HAL', 'Jenkins', 'AWS'
+      'Open API Specification', 'Swagger', 'OAuth', 'JWT', 'Docker', 'REST', 'HAL', 'Jenkins', 'AWS'
     ],
   },
   {

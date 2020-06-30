@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main role="main">
         <Reflex>
           <PageContent>
             <WorkHistory />
@@ -18,6 +18,7 @@ function App() {
           </SideBar>
         </Reflex>
       </main>
+      <footer role="contentinfo"></footer>
     </>
   );
 }

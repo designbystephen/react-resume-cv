@@ -1,3 +1,25 @@
 .reflex {
   display: flex;
 }
+
+@media (max-width: 576px) {
+  .reflex--phone {
+    display: block;
+  }
+}
+
+// lose flex layout for < medium screen sizes
+@media (max-width: 768px) {
+  .reflex--tablet {
+    display: block;
+  }
+}
+
+@media print {
+  // fix for firefox bug with printing flex box elements
+  @-moz-document url-prefix() {
+    .reflex {
+      display: block
+    }
+  }
+}

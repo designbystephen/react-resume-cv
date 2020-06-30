@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tidbit, AssetIcon } from '..';
+import { Tidbit, AssetIcon, Reflex } from '..';
 import './style.scss';
 
 const Header = () => (
@@ -10,7 +10,7 @@ const Header = () => (
         <em>Using technology to solve problems and improve user experience for 12 years.</em>
       </div>
       <address className="header__contact-me">
-        <div className="header__chip-row">
+        <Reflex classModifiers="reflex--phone header__chip-row">
           <Tidbit
             Icon={() => <AssetIcon name="link-solid.svg" />}
             title="designbystephen.com"
@@ -21,8 +21,8 @@ const Header = () => (
             title="designbystephen@gmail.com"
             href="mailto:designbystephen@gmail.com"
           />
-        </div>
-        <div className="header__chip-row">
+        </Reflex>
+        <Reflex classModifiers="reflex--phone header__chip-row">
           <Tidbit
             Icon={() => <AssetIcon name="code-solid.svg" />}
             title="github.com/designbystephen"
@@ -32,7 +32,7 @@ const Header = () => (
             Icon={() => <AssetIcon name="map-marker-alt-solid.svg" />}
             title="St. Louis, MO"
           />
-        </div>
+        </Reflex>
       </address>
     </div>
     <div className="header__right">

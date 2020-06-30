@@ -7,7 +7,7 @@ function App() {
     <>
       <Header />
       <main role="main">
-        <Reflex>
+        <Reflex classModifiers="reflex--tablet">
           <PageContent>
             <WorkHistory />
           </PageContent>

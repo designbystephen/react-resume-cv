@@ -15,15 +15,27 @@ body {
   max-width: $max-body-width;
   margin: 0 auto;
   color: $gray-800;
-}
-
-body { 
   padding: $default-spacing;
 }
 
-@media print {
+@media (max-width: 576px) {
+  html,
   body {
+    padding: $default-spacing/4;
+  }
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    padding: $default-spacing/2;
+  }
+}
+
+@media print {
+  html, body {
     width: auto;
+    max-width: unset;
     padding: 0;
     margin: 0;
     font-size: $print-font-size;
@@ -36,8 +48,4 @@ a {
 
 ul {
   list-style-position: inside;
-}
-
-.--small-text {
-  font-size: .75em;
 }

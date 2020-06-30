@@ -1,4 +1,4 @@
 export default [
-  'React', 'Redux', 'Node.js', 'Express.js',
-  'Object Oriented Javscript', 'ES6', 'HTML', 'CSS', 'Sass'
+  'React', 'Redux', 'Node.js', 'Express', 'Ember.js',
+  'Object Oriented Javscript', 'HTML', 'CSS', 'Sass', 'Software Documentation',
 ];

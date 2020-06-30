@@ -4,10 +4,10 @@
   display: flex;
   
   &__title {
-   > h1 {
-     margin: 0;
-     padding: $default-spacing/2 0;
-   }
+    > h1 {
+      margin: 0;
+      padding: $default-spacing/2 0;
+    }
   }
 
   &__left {
@@ -25,9 +25,8 @@
   }
 
   &__chip-row {
-    padding-bottom: $default-spacing/4;
-    
     > * {
+      padding: $default-spacing/4 0;
       flex-basis: 250px;
     }
   }

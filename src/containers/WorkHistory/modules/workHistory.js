@@ -4,14 +4,15 @@ export default [
     companyName: "Change Healthcare",
     dates: "12/2017 - Present",
     details: [
-      'Architect scalable, secure, and modern software',
+      'Architect scalable, secure, and modern software in the cloud',
+      'Lead, mentor, train and build cross-functional engineering teams',
       'Innovate UI development and fullstack development practices, principles and patterns', 
-      'Mentor, train and build cross-functional engineering teams',
+      'Ensuring application quality with unit testing practices, test driven development (TDD) and integrated pipelines',
       'Manage agile projects and scrum teams',
     ],
     technologies: [
-      'Object Oriented Javascript', 'React', 'Redux', 'Node.js', 'AWS', 'Jenkins', 
-      'GraphDB', 'MongoDB', 'Swagger', 'Express.js', 'API', 'Rest', 'HAL', 'OAuth', 'JWT', 'Docker', 
+      'Object Oriented Javascript', 'React', 'Redux', 'Webpack', 'Jest', 'Node.js', 'AWS', 'Jenkins', 
+      'GraphDB', 'MongoDB', 'Swagger', 'Express.js', 'API', 'OAuth', 'JWT', 'Docker', 'REST', 'HAL'
     ],
   },
   {
@@ -19,7 +20,10 @@ export default [
     companyName: "NJVC",
     dates: "4/2017 - 12/2017",
     details: [
-      'Lead team'
+      'Architected multiple UI solutions',
+      'Lead, mentored, and trained engineering teams across multiple projects',
+      'Innovated UI development practices, including migration to React and Redux frameworks',
+      'Improved application quality with unit testing practices and test driven development (TDD)',
     ],
     technologies: [
       'React', 'Redux', 'Ember.js', 'Node.js', 'Express.js', 'OAuth', 'REST', 'HAL', 'Bamboo',
@@ -30,9 +34,11 @@ export default [
     companyName: "NextGen / NJVC",
     dates: "9/2015 - 4/2017",
     details: [
-      'Developed Commercial SaaS',
-      'Developed ',
-      'Developed SaaS (Software as a Service)'
+      'Architected multiple UI solutions',
+      'Lead, mentored, and trained engineering teams across multiple projects',
+      'Innovated UI development practices, including migration to React and Redux frameworks',
+      'Pioneered unit testing practices including test driven development (TDD)',
+      'Developed SaaS (Software as a Service)',
     ],
     technologies: [
       'React', 'Redux', 'Ember.js', 'Node.js', 'Express.js', 'Cordova', 'OAuth', 'REST', 'HAL', 

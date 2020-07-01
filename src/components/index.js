@@ -13,6 +13,7 @@ import Skills from './Skills';
 import Section from './Section';
 import Training from './Training';
 import EmphasisHeader from './EmphasisHeader';
+import Footer from './Footer';
 
 export {
   Tidbit,
@@ -30,4 +31,5 @@ export {
   Section,
   Training,
   EmphasisHeader,
+  Footer,
 }

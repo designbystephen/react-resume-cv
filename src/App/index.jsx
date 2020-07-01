@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Reflex, PageContent, SideBar } from '../components';
+import { Header, Reflex, PageContent, SideBar, Footer } from '../components';
 import { WorkHistory, TechnicalSkills, PersonalSkills, EducationHistory } from '../containers';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           </SideBar>
         </Reflex>
       </main>
-      <footer role="contentinfo"></footer>
+      <Footer />
     </>
   );
 }

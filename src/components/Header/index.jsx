@@ -7,7 +7,7 @@ const Header = () => (
     <div className="header__left">
       <div className="header__title">
         <h1>Stephen Roth</h1>
-        <em>Using technology to solve problems and improve user experience for 12 years.</em>
+        <em>12 years using technology to solve problems and improve user experience</em>
       </div>
       <address className="header__contact-me">
         <Reflex classModifiers="reflex--phone header__chip-row">

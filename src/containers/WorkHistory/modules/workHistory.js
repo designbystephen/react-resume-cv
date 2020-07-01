@@ -50,7 +50,7 @@ export default [
   {
     title: "Senior Consultant - Front-End Developer",
     companyName: "Leidos",
-    dates: "9/2015 - 4/2017",
+    dates: "9/2014 - 9/2015",
     details: [
       'Lead UI/UX development of Computerized Physician Order Entry (CPOE) applications',
       'Created template conversion application for integrating order sets from other systems',
@@ -65,7 +65,7 @@ export default [
   {
     title: "Senior Consultant - Front-End Developer",
     companyName: "HSM Consulting",
-    dates: "9/2015 - 4/2017",
+    dates: "3/2013 - 8/2014",
     details: [
       'Lead UI/UX development of Computerized Physician Order Entry (CPOE) applications',
       'Created template conversion application for integrating order sets from other systems',
@@ -80,7 +80,7 @@ export default [
   {
     title: "Senior Consultant - Front-End Developer",
     companyName: "Holland Square Group",
-    dates: "9/2015 - 4/2017",
+    dates: "8/2012 - 12/2012",
     details: [
       'UI/UX development of Computerized Physician Order Entry (CPOE) applications',
       'Created template conversion application for integrating order sets from other systems',
@@ -92,7 +92,7 @@ export default [
   {
     title: "Senior Consultant - Front-End Developer",
     companyName: "maxIT Healthcare",
-    dates: "9/2015 - 4/2017",
+    dates: "3/2010 - 8/2012",
     details: [
       'Lead UI/UX development of Computerized Physician Order Entry (CPOE) applications',
       'Created template conversion application for integrating order sets from other systems',
@@ -107,7 +107,7 @@ export default [
   {
     title: "Freelance Web Developer",
     companyName: "Nazpaz.com",
-    dates: "9/2015 - 4/2017",
+    dates: "2009",
     details: [  
       'Developed and designed custom blog and Content Management System (CMS)',
       'Created SMTP email forwarding service',
@@ -120,7 +120,7 @@ export default [
   {
     title: "Webmaster",
     companyName: "Decatur Memorial Hospital",
-    dates: "9/2015 - 4/2017",
+    dates: "2008 - 2010",
     details: [
       'Award-winning UI/UX development',
       'Created several physician ordering applications used to improve patient care',

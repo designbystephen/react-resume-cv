@@ -2,16 +2,18 @@
   display: flex;
 }
 
-@media (max-width: 576px) {
-  .reflex--phone {
-    display: block;
+@media screen {
+  @media (max-width: 576px) {
+    .reflex--phone {
+      display: block;
+    }
   }
-}
 
-// lose flex layout for < medium screen sizes
-@media (max-width: 768px) {
-  .reflex--tablet {
-    display: block;
+  // lose flex layout for < medium screen sizes
+  @media (max-width: 768px) {
+    .reflex--tablet {
+      display: block;
+    }
   }
 }
 

@@ -18,22 +18,25 @@ body {
   padding: $default-spacing;
 }
 
-@media (max-width: 576px) {
-  html,
-  body {
-    padding: $default-spacing/4;
+@media screen {
+  @media (max-width: 576px) {
+    html,
+    body {
+      padding: $default-spacing/4;
+    }
   }
-}
-
-@media (max-width: 768px) {
-  html,
-  body {
-    padding: $default-spacing/2;
+  
+  @media (max-width: 768px) {
+    html,
+    body {
+      padding: $default-spacing/2;
+    }      
   }
 }
 
 @media print {
-  html, body {
+  html,
+  body {
     width: auto;
     max-width: unset;
     padding: 0;

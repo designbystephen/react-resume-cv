@@ -2,9 +2,11 @@
 
 .header {
   display: flex;
-  
+  align-items: top;
+
   &__title {
     > h1 {
+      font-size: 2.0em;
       margin: 0;
       padding: $default-spacing/2 0;
     }
@@ -17,6 +19,11 @@
   &__avatar,
   &__avatar > img {
     width: 150px;
+    @media screen {
+      @media (max-width: 576px) {
+        width: 75px;
+      }
+    }
   }
 
   &__contact-me {

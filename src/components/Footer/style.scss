@@ -4,4 +4,8 @@
   padding: $default-spacing/2 0;
   text-align: center;
   color: $gray-600;
+
+  &__item {
+    margin: $default-spacing/4 0;
+  }
 }

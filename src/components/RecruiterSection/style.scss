@@ -1,0 +1,14 @@
+@import "../../styles";
+
+.recruiter-section {
+  display: none;
+  color: $gray-300;
+  margin: $default-spacing/2 0 $default-spacing 0;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  text-align: center;
+
+  border: 2px dashed $gray-300;
+  height: 75px;
+  line-height: 75px;
+}

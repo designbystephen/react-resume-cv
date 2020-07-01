@@ -14,6 +14,7 @@ import Section from './Section';
 import Training from './Training';
 import EmphasisHeader from './EmphasisHeader';
 import Footer from './Footer';
+import RecruiterSection from './RecruiterSection';
 
 export {
   Tidbit,
@@ -32,4 +33,5 @@ export {
   Training,
   EmphasisHeader,
   Footer,
+  RecruiterSection,
 }

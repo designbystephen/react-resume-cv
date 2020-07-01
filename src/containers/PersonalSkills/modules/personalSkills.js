@@ -1,4 +1,4 @@
 export default [
-  'Problem Solving', 'Team Building', 'Creativity', 'Communication', 'Project Management', 
-  'Critical Thinking', 'Logic', 'Determination', 'Teamwork', 'Decision Making'
+  'Leadership', 'Team Building','Problem Solving', 'Creativity', 'Communication', 
+  'Project Management', 'Critical Thinking', 'Design', 'Determination', 'Teamwork', 'Decision Making'
 ]

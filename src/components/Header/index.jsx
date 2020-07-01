@@ -14,7 +14,7 @@ const Header = () => (
           <Tidbit
             Icon={() => <AssetIcon name="link-solid.svg" />}
             title="designbystephen.com"
-            href="https://designbystephen.com"
+            href="http://designbystephen.com"
           />
           <Tidbit
             Icon={() => <AssetIcon name="at-solid.svg" />}

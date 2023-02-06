@@ -1,13 +1,22 @@
+@import "../../styles";
+
 .tidbit {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
 
   &__icon {
     flex-grow: 0;
   }
   
   &__text {
-    flex-grow: 1;
     margin-left: 6px;
+  }
+}
+
+.tidbit--redacted {
+  .tidbit__text {
+    background-color: $gray-500;
+    color: transparent;
   }
 }

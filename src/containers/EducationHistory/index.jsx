@@ -1,14 +1,19 @@
 import React from 'react';
 import { Section, SectionHeader, Training } from '../../components';
-import education from './modules/education';
+import data from '../../fixtures/data';
 
-const Education = () => (
-  <Section>
-    <SectionHeader title="Education" id="education" />
-    {education && !!education.length && education.map((cert, index) => (
-      <Training key={index} {...cert} />
-    ))}
-  </Section>
-);
+const Education = () => {
+  const { education} = data;
+  const redacted = process.env.REACT_APP_REDACTED === 'true';
+
+  return (
+    <Section>
+      <SectionHeader title="Education" id="education" />
+      {education && !!education.length && education.map((cert, index) => (
+        <Training key={index} {...cert} redacted={redacted}/>
+      ))}
+    </Section>
+  );
+}
 
 export default Education;

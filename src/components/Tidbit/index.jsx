@@ -5,12 +5,13 @@ const Tidbit = ({
     Icon,
     title,
     href,
+    redacted = false,
 }) => (
-  <div className="tidbit">
+  <div className={`tidbit ${redacted ? 'tidbit--redacted' : ''}`}>
     <div className="tidbit__icon">
       <Icon /> 
     </div>
-    {href ? (
+    {href && !redacted ? (
       <div className="tidbit__text">
         <a href={href}>{ title }</a>
       </div>

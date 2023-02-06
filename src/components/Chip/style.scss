@@ -10,8 +10,18 @@
     font-size: .80em;
   }
 
+
   &--thin {
     background-color: transparent;
     border: 1px solid $gray-600;
+  }
+}
+
+@media print {
+  .chip {
+    &--thin {
+      background-color: $gray-200;
+      border: none;
+    }
   }
 }

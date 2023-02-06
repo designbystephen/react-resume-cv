@@ -6,12 +6,14 @@ const Training = ({
   institutionName,
   dates,
   details = [],
+  redacted = true,
 }) => (
   <section className="training">
     <div className="training__title">
       <Tidbit
         Icon={() => <AssetIcon name="graduation-cap-solid.svg" />}
         title={ institutionName }
+        redacted={redacted}
       />
     </div>
     <div className="training__dates">

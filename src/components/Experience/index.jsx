@@ -9,6 +9,7 @@ const Experience = ({
   dates,
   details = [],
   technologies = [],
+  redacted = true,
 }) => (
   <section className="experience">
     <DetailHeader title={title} id={dasherize(companyName, title)} />
@@ -16,12 +17,14 @@ const Experience = ({
       <Tidbit
         Icon={() => <AssetIcon name="briefcase-solid.svg" />}
         title={ companyName }
+        redacted={redacted}
       />
     </div>
     <div className="experience__detail">
       <Tidbit
         Icon={() => <AssetIcon name="calendar-alt-regular.svg" />}
         title={ dates }
+        redacted={false}
       />
     </div>
     <ul className="experience__bullets">

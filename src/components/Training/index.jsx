@@ -11,14 +11,14 @@ const Training = ({
   <section className="training">
     <div className="training__title">
       <Tidbit
-        Icon={() => <AssetIcon name="graduation-cap-solid.svg" />}
+        Icon={() => <AssetIcon name="graduation-cap.svg" />}
         title={ institutionName }
         redacted={redacted}
       />
     </div>
     <div className="training__dates">
       <Tidbit
-        Icon={() => <AssetIcon name="calendar-alt-regular.svg" />}
+        Icon={() => <AssetIcon name="calendar.svg" />}
         title={ dates }
       />
     </div>

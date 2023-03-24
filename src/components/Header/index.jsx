@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tidbit, AssetIcon, Reflex } from '..';
+import { Tidbit, AssetIcon, Reflex, AvatarImage } from '..';
 import './style.scss';
 
 const Header = () => (
@@ -12,24 +12,24 @@ const Header = () => (
       <address className="header__contact-me">
         <Reflex classModifiers="reflex--phone header__chip-row">
           <Tidbit
-            Icon={() => <AssetIcon name="link-solid.svg" />}
+            Icon={() => <AssetIcon name="link.svg" />}
             title="designbystephen.com"
             href="http://designbystephen.com"
           />
           <Tidbit
-            Icon={() => <AssetIcon name="at-solid.svg" />}
+            Icon={() => <AssetIcon name="at.svg" />}
             title="designbystephen@gmail.com"
             href="mailto:designbystephen@gmail.com"
           />
         </Reflex>
         <Reflex classModifiers="reflex--phone header__chip-row">
           <Tidbit
-            Icon={() => <AssetIcon name="code-solid.svg" />}
+            Icon={() => <AssetIcon name="code.svg" />}
             title="github.com/designbystephen"
             href="https://github.com/designbystephen"
           />
           <Tidbit
-            Icon={() => <AssetIcon name="map-marker-alt-solid.svg" />}
+            Icon={() => <AssetIcon name="map-pin.svg" />}
             title="St. Louis, MO"
           />
         </Reflex>
@@ -37,11 +37,7 @@ const Header = () => (
     </div>
     <div className="header__right">
       <div className="header__avatar">
-        <img
-          alt="Stephen Roth"
-          src="https://designbystephen-assets.s3-us-west-2.amazonaws.com/avatar-2017-03-13-circle-optimized.png" 
-          width="150"
-        />
+        <AvatarImage />
       </div>
     </div>
   </header>

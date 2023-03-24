@@ -15,6 +15,9 @@ import Training from './Training';
 import EmphasisHeader from './EmphasisHeader';
 import Footer from './Footer';
 import RecruiterSection from './RecruiterSection';
+import { AssetImage } from './AssetImage';
+import { AvatarImage } from './AvatarImage';
+
 
 export {
   Tidbit,
@@ -34,4 +37,6 @@ export {
   EmphasisHeader,
   Footer,
   RecruiterSection,
+  AssetImage,
+  AvatarImage,
 }

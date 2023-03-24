@@ -19,9 +19,15 @@
   &__avatar,
   &__avatar > img {
     width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+
     @media screen {
       @media (max-width: 576px) {
         width: 75px;
+        height: 75px;
       }
     }
   }

@@ -16,7 +16,7 @@
     "make:data": "node ./src/fixtures/data.local.js > ./src/fixtures/data.local.json",
     "make:data:redacted": "cross-env REACT_APP_REDACTED=true node ./src/fixtures/data.local.js > ./src/fixtures/data.redacted.json",
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "cross-env REACT_APP_REDACTED=true react-scripts build",
+    "build": "cross-env REACT_APP_REDACTED=true yarn make:data:redacted && yarn react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
